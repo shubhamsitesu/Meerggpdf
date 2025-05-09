@@ -1,1 +1,273 @@
-h
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Merge PDF files online for free - 100% private, no uploads needed. Combine multiple PDFs into one document quickly & securely in your browser.">
+    <meta name="keywords" content="merge pdf online, combine pdf, join pdf files, pdf merger online, merge pdf files, merge pdf free, pdf merger india">
+    <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mergepdf.online" />
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "MergePDF.online - Free Online PDF Merger",
+      "url": "https://mergepdf.online",
+      "description": "Merge multiple PDF files into one document online for free. 100% private - no server upload required.",
+      "applicationCategory": "DocumentEditor",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "MergePDF.online"
+      }
+    }
+    </script>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mergepdf.online/">
+    <meta property="og:title" content="Merge PDF Online - Free & Private PDF Merger | MergePDF.online">
+    <meta property="og:description" content="Combine multiple PDF files into one document online for free. 100% private - no server upload required.">
+    <meta property="og:image" content="https://mergepdf.online/images/merge-pdf-online-social.jpg">
+    
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mergepdf.online/">
+    <meta property="twitter:title" content="Merge PDF Online - Free & Private PDF Merger | MergePDF.online">
+    <meta property="twitter:description" content="Combine multiple PDF files into one document online for free. 100% private - no server upload required.">
+    <meta property="twitter:image" content="https://mergepdf.online/images/merge-pdf-online-social.jpg">
+    
+    <title>Merge PDF Online - Free & Private PDF Merger | MergePDF.online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+   </head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-file-pdf"></i>
+                    <span>MergePDF.online</span>
+                </div>
+                <div class="nav-right">
+                    <div class="theme-toggle-container">
+                        <span class="theme-toggle-label">Dark Mode</span>
+                        <label class="theme-switch">
+                            <input type="checkbox" id="theme-toggle">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="home">
+            <h1><i class="fas fa-file-merge"></i> Merge PDF Files Online - Free & Private</h1>
+            <p>Combine multiple PDFs into one document <strong>without uploading to any server</strong> - your documents never leave your device! Perfect solution for students, professionals and businesses in India.</p>
+            
+            <div class="ad-container">
+                <div class="ad-label">Advertisement</div>
+                <div id="ad-slot-top">
+                    <!-- AdSense will load here -->
+                </div>
+            </div>
+            
+            <div id="drop-zone">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <p><strong>Drag & drop PDF files here</strong> or</p>
+                <p class="small">Click to browse files</p>
+                <input type="file" id="file-input" accept=".pdf,.jpg,.jpeg,.png" multiple>
+            </div>
+            
+            <div class="file-list-wrapper">
+                <div class="file-list-header">
+                    <h2>Selected Files</h2>
+                    <span class="file-count" id="file-count">0 files</span>
+                </div>
+                <div class="file-list-container">
+                    <div id="file-list"></div>
+                </div>
+            </div>
+            
+            <button id="merge-btn" class="btn" disabled>
+                <i class="fas fa-merge"></i> Merge PDF Files
+            </button>
+            
+            <div class="ad-container">
+                <div class="ad-label">Advertisement</div>
+                <div id="ad-slot-bottom">
+                    <!-- AdSense will load here -->
+                </div>
+            </div>
+        </section>
+        
+        <section id="benefits">
+            <h2><i class="fas fa-shield-alt"></i> Why Choose Our PDF Merger?</h2>
+            <p>Unlike other online tools that upload your sensitive documents to their servers, our solution keeps everything 100% private in your browser. Trusted by thousands of users across India.</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-lock"></i>
+                    <h3>Complete Privacy</h3>
+                    <p>Your files never leave your device. No server upload means no risk of data breaches or unauthorized access.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Instant Processing</h3>
+                    <p>No waiting for file uploads - merging happens immediately in your browser, even offline!</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-rupee-sign"></i>
+                    <h3>100% Free</h3>
+                    <p>No hidden charges or subscriptions. Merge unlimited PDFs without paying anything.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Works Everywhere</h3>
+                    <p>Works perfectly on all devices - smartphones, tablets, and computers with no special software needed.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="how-it-works">
+            <h2><i class="fas fa-question-circle"></i> How to Merge PDF Files Online</h2>
+            <ol style="padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                <li style="margin-bottom: 0.5rem;"><strong>Select PDF files</strong> by dragging & dropping or clicking the upload area</li>
+                <li style="margin-bottom: 0.5rem;"><strong>Rearrange</strong> files by dragging them to your preferred order</li>
+                <li style="margin-bottom: 0.5rem;"><strong>Click "Merge PDF Files"</strong> when ready</li>
+                <li style="margin-bottom: 0.5rem;"><strong>Name your file</strong> in the popup window</li>
+                <li><strong>Download</strong> your merged PDF instantly!</li>
+            </ol>
+            
+            <div class="ad-container">
+                <div class="ad-label">Advertisement</div>
+                <div id="ad-slot-middle">
+                    <!-- AdSense will load here -->
+                </div>
+            </div>
+        </section>
+        
+        <section id="faq">
+            <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Is this PDF merger really 100% private?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>Yes, absolutely private!</strong> Unlike other online PDF mergers that upload your files to their servers (which is risky), our tool processes everything directly in your browser. Your files never leave your device - they're only processed temporarily in your computer's memory during the merge operation.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What's the difference between this and other online PDF mergers?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Most online tools require you to <strong>upload your files to their servers</strong>, which means:</p>
+                    <ul style="padding-left: 1.5rem; margin-top: 0.5rem;">
+                        <li style="margin-bottom: 0.3rem;">Your private documents are stored on someone else's computer</li>
+                        <li style="margin-bottom: 0.3rem;">You have to trust their privacy policy and security measures</li>
+                        <li style="margin-bottom: 0.3rem;">Slower processing due to upload/download times</li>
+                    </ul>
+                    <p style="margin-top: 0.5rem;">Our solution eliminates all these concerns by keeping everything on your device!</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What file types are supported for merging?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>You can merge:</p>
+                    <ul style="padding-left: 1.5rem; margin-top: 0.5rem;">
+                        <li style="margin-bottom: 0.3rem;"><strong>PDF files</strong> (up to 50MB each)</li>
+                        <li style="margin-bottom: 0.3rem;"><strong>Image files</strong> (JPG, JPEG, PNG up to 10MB each)</li>
+                    </ul>
+                    <p style="margin-top: 0.5rem;">The merged output will always be a PDF file that works on any device.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>How do I reorder PDF files before merging?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Simply <strong>drag and drop</strong> the files in the preview area to rearrange them. The files will merge in the order they appear from left to right, top to bottom. You'll see visual feedback as you drag files to new positions.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Is there a limit to how many PDFs I can merge?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>You can merge up to <strong>20 files at once</strong>, with each PDF up to 50MB and each image up to 10MB. For best performance with many large files, we recommend merging in batches of 5-10 files at a time.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Does this work on mobile devices?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>Yes!</strong> Our PDF merger works perfectly on all smartphones and tablets. You can merge PDF files directly from your mobile browser without installing any app. It's optimized for touch screens and works well even on slower mobile networks.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 MergePDF.online | <a href="#" class="privacy-link">Privacy Policy</a></p>
+            <p class="small">This tool works entirely in your browser. No files are uploaded to any server - your documents stay 100% private on your device.</p>
+        </div>
+    </footer>
+    
+    <!-- Filename input modal -->
+    <div class="modal" id="filename-modal">
+        <div class="modal-content">
+            <h3 class="modal-title">Save Merged PDF File</h3>
+            <div class="form-group">
+                <label for="output-filename">File Name</label>
+                <input type="text" id="output-filename" class="form-control" value="merged-document.pdf">
+            </div>
+            <div class="modal-actions">
+                <button class="btn" id="cancel-save">Cancel</button>
+                <button class="btn" id="confirm-save">Save PDF</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Loading indicator -->
+    <div class="loading-indicator" id="loading">
+        <i class="fas fa-spinner fa-spin"></i> Merging PDFs...
+    </div>
+
+    <!-- Load PDF.js and PDF-lib -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+    <script src="https://unpkg.com/pdf-lib@1.16.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+    </body>
+</html>
