@@ -1,4 +1,52 @@
 User-agent: *
-Disallow: /private/ 
-Allow: /              
-Sitemap: https://mergepdf.online/sitemap.xml  
+Allow: /
+
+# Sitemap location
+Sitemap: https://MergePDF.online/sitemap.xml
+
+# Disallow crawling of certain sections (if needed in the future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl delay (if needed to reduce server load)
+# Crawl-delay: 1
+
+# Block common bots that don't follow robots.txt
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Allow specific search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block unnecessary file types
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
+Disallow: /*.ppt$
+Disallow: /*.pptx$
+
+# Block search and filter pages (if implemented in the future)
+Disallow: /*?search=*
+Disallow: /*?filter=*
+Disallow: /*?sort=*
